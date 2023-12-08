@@ -24,6 +24,5 @@ public class GitHubSolutionsTest {
         $("a[href='/enterprise']").click();
         $("div.enterprise-hero-background.overflow-hidden")
                 .shouldHave(text("To build, scale, and deliver secure software."));
-
     }
 }
